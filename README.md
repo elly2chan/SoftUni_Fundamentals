@@ -1,1 +1,1 @@
-Programming fundamentals with Python
+Programming Fundamentals -> Python
