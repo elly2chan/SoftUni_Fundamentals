@@ -26,8 +26,7 @@ while command != 'End':
         radius = int(command[2])
         before_radius = index - radius
         after_radius = index + radius
-
-        if after_radius in range(len(sequence_of_targets)):
+        if after_radius in range(len(sequence_of_targets)) and before_radius in range(len(sequence_of_targets)):
             sequence_of_targets = sequence_of_targets[0:before_radius] + sequence_of_targets[after_radius + 1::]
         else:
             print('Strike missed!')
